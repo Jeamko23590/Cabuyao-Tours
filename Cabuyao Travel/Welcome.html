@@ -1,0 +1,508 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabuyao Tours</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap Link -->
+
+
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- Font Awesome Cdn -->
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+</head>
+<body>
+    
+
+
+
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html" id="logo"><span>Cabuyao</span>Tours</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#book">Book</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#packages">Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallary">Galary</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+             
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- Navbar End -->
+
+
+
+
+
+    <!-- Home Section Start -->
+    <div class="home">
+        <div class="content">
+            <h5>Welcome To Cabuyao</h5>
+            <h1>Visit <span class="changecontent"></span></h1>
+            <p>Pera ng Bayan, Ibalik sa Mamamayan</p>
+            <a href="#book">Book Place</a>
+        </div>
+    </div>
+    <!-- Home Section End -->
+
+
+
+
+
+    <!-- Section Book Start -->
+    <section class="book" id="book">
+      <div class="container">
+
+        <div class="main-text">
+          <h1><span>B</span>ook a Ride</h1>
+        </div>
+        
+        <div class="row">
+
+          <div class="col-md-6 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/map.png" alt="">
+            </div>
+          </div>
+
+          <div class="col-md-6 py-3 py-md-0">
+            <form id="myForm" class="book-form">
+
+              <input type="text" class="form-control" placeholder="Where To" required><br>
+              <input type="text" class="form-control" placeholder="How Many" required><br>
+              <input type="date" class="form-control" placeholder="Arrivals" required><br>
+              <input type="date" class="form-control" placeholder="Leaving" required><br>
+              <textarea class="form-control" rows="5" name="text" placeholder="Enter Your Name & Details"></textarea>
+              <input type="submit" value="Book Now" class="submit" required>
+
+            </form>
+            <div id="notification" class="notification">Booking Successful!</div>
+          </div>
+          
+
+        </div>
+      </div>
+    </section>
+    <!-- Section Book End -->
+
+
+
+
+
+
+
+
+    <!-- Section Packages Start -->
+    <section class="packages" id="packages">
+      <div class="container">
+        <div class="main-txt">
+          <h1><span>P</span>ackages</h1>
+        </div>
+        <div class="row" style="margin-top: 30px;">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/poblacion.png" alt="">
+              <div class="card-body">
+                <h3>Poblacion Uno</h3>
+                <p>The only Catholic Church in the Philippines dedicated to Saint Polycarp Bishop and Martyr of Smyrna</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/diezmo.png" alt="">
+              <div class="card-body">
+                <h3>Diezmo</h3>
+                <p>A private, research, and nonsectarian university wholly-owned subsidiary of the Mapúa University </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/banaybanay.png" alt="">
+              <div class="card-body">
+                <h3>Banay-Banay</h3>
+                <p>Get a free quality education from a technology-enabled premier institution of higher learning in the region.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row" style="margin-top: 30px;">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/gulod.png" alt="">
+              <div class="card-body">
+                <h3>Gulod</h3>
+                <p>Rice yields have stagnated and have become more variable in the last decade.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/Casile.png" alt="">
+              <div class="card-body">
+                <h3>Casile</h3>
+                <p>Reproduction of the original, Spanish-colonial style house in Calamba, Laguna where José Rizal was born.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/marinig.png" alt="">
+              <div class="card-body">
+                <h3>Marinig</h3>
+                <p>Marinig Fish Port: Magandang Pasyalan. Sa Marinig Cabuyao Laguna matatagpuan.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section Packages End -->
+
+
+
+
+    <!-- Section Services Start -->
+    <section class="services" id="services">
+      <div class="container">
+
+        <div class="main-txt">
+          <h1><span>S</span>ervices</h1>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <i class="fas fa-hotel"></i>
+              <div class="card-body">
+                <h3>Affordable Houses</h3>
+                <p>Discover our range of budget-friendly housing options.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <i class="fas fa-utensils"></i>
+              <div class="card-body">
+                <h3>Food & Drinks</h3>
+                <p>Indulge in a culinary journey through our exquisite selection of flavors and cuisines. </p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <i class="fas fa-bullhorn"></i>
+              <div class="card-body">
+                <h3>Safety Guide</h3>
+                <p>Prioritize your safety with our comprehensive guide designed to keep you informed and prepared.</p>
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+
+        <div class="row" style="margin-top: 30px;">
+
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <i class="fas fa-globe-asia"></i>
+              <div class="card-body">
+                <h3>Tourist Spots</h3>
+                <p>Embark on unforgettable adventures as you explore our curated list of must-see destinations. </p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <i class="fas fa-plane"></i>
+              <div class="card-body">
+                <h3>Mode of Travel</h3>
+                <p>Experience seamless travel with our array of transportation options.</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <i class="fas fa-hiking"></i>
+              <div class="card-body">
+                <h3>Adventures</h3>
+                <p>Fuel your spirit of adventure with our thrilling range of activities and experiences.</p>
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </section>
+    <!-- Section Services End -->
+
+
+
+
+    <!-- Section Gallary Start -->
+    <section class="gallary" id="gallary">
+      <div class="container">
+
+        <div class="main-txt">
+          <h1><span>Gala</span>ry</h1>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/Elena.png" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/Hospi.png" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/Enchanted.png" alt="" height="230px">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row" style="margin-top: 30px;">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/bfc.png" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/plaza.png" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/woodside.png" alt="" height="230px">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- Section Gallary End -->
+
+    
+
+
+
+
+
+
+
+    <!-- About Start -->
+    <section class="about" id="about">
+      <div class="container">
+
+        <div class="main-txt">
+          <h1>About <span>Us</span></h1>
+        </div>
+
+        <div class="row" style="margin-top: 50px;">
+
+          <div class="col-md-6 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/life.png" alt="">
+            </div>
+          </div>
+
+          <div class="col-md-6 py-3 py-md-0">
+            <h2>This Website Is For</h2>
+            <p>Welcome to Cabuyao Tours, your gateway to unforgettable experiences and adventures. We are dedicated to providing you with the best in travel, offering meticulously crafted itineraries and personalized services to ensure every journey exceeds your expectations. With a passion for exploration and a commitment to excellence, we invite you to embark on a journey with us and discover the wonders of Cabuyao and beyond.</p>
+            <button id="about-btn">Creators</button>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- About End -->
+
+    <!-- Travel List Start -->
+    <section class="List" id="List">
+      <div class="container">
+        <div class="main-txt">
+          <h1>Bucket <span>List</span></h1>
+        </div>
+        <div class="todo-app">
+            <h2>To-Do<img src="images/icon.png" alt=""></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your text">
+            </div>
+            <button id="addButton" onclick="addTask()">Add</button> 
+            <ul id="list-container">
+                <!-- <li class="checked">Task 1</li>
+                <li>Task 1</li>
+                <li>Task 1</li> -->
+            </ul>
+        </div>
+    </div>
+<script src="script.js"></script>
+
+      
+    </section>
+
+
+
+    <!-- Travel List End -->  
+
+
+
+    <!-- Footer Start -->
+    <footer id="footer">
+      <h1><span>Cabuyao</span>Tours</h1>
+      <p>Pera ng Bayan, Ibalik sa Mamamayan!</p>
+      <div class="social-links">
+        <i class="fa-brands fa-twitter"></i>
+        <a href="https://www.facebook.com/BagongCabuyao?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-pinterest-p"></i>
+      </div>
+      <div class="credit">
+        <p>Designed By <a href="https://www.facebook.com/jearemynikonositera">Jearemy Niko Nositera</a> and <a href="https://www.facebook.com/dhesiree.21">Desiree Refran</a> </p>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+
+
+
+
+
+
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script>
+      window.embeddedChatbotConfig = {
+      chatbotId: "QrK5ELdFZDttgFibws4lO",
+      domain: "www.chatbase.co"
+      }
+      </script>
+      <script
+      src="https://www.chatbase.co/embed.min.js"
+      chatbotId="QrK5ELdFZDttgFibws4lO"
+      domain="www.chatbase.co"
+      defer>
+      </script>
+      
+</body>
+</html>
